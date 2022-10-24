@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6356fc6e70dca0d5d8314fb7"
+  },
+  "id_facultad": 1,
+  "nombre": "facultad1"
+},{
+  "_id": {
+    "$oid": "6356fc7c70dca0d5d8314fb8"
+  },
+  "id_facultad": 2,
+  "nombre": "facultad2"
+},{
+  "_id": {
+    "$oid": "6356fc8870dca0d5d8314fb9"
+  },
+  "id_facultad": 3,
+  "nombre": "facultad3"
+},{
+  "_id": {
+    "$oid": "6356fc9370dca0d5d8314fba"
+  },
+  "id_facultad": 4,
+  "nombre": "facultad4"
+},{
+  "_id": {
+    "$oid": "6356fca070dca0d5d8314fbb"
+  },
+  "id_facultad": 5,
+  "nombre": "facultad5"
+}]

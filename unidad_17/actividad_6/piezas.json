@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6356f5dc70dca0d5d8314f94"
+  },
+  "codigo": 1,
+  "nombre": "pieza1"
+},{
+  "_id": {
+    "$oid": "6356f5dc70dca0d5d8314f95"
+  },
+  "codigo": 2,
+  "nombre": "pieza2"
+},{
+  "_id": {
+    "$oid": "6356f5dc70dca0d5d8314f96"
+  },
+  "codigo": 3,
+  "nombre": "pieza3"
+},{
+  "_id": {
+    "$oid": "6356f5f170dca0d5d8314f97"
+  },
+  "codigo": 4,
+  "nombre": "pieza4"
+},{
+  "_id": {
+    "$oid": "6356f5f170dca0d5d8314f98"
+  },
+  "codigo": 5,
+  "nombre": "pieza5"
+}]

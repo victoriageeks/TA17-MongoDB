@@ -1,0 +1,12 @@
+use actividad_3;
+
+db.createCollection('almacenes');
+db.almacenes.insertMany([{codigo:1,lugar:'tarragona',capacidad:3000},{codigo:2,lugar:'barcelona',capacidad:5000},{codigo:3,lugar:'lleida',capacidad:2500},{codigo:4,lugar:'girona',capacidad:3100},{codigo:5,lugar:'madrid',capacidad:6000}]);
+
+db.createCollection('cajas');
+db.cajas.insertOne({num_referencia:'0001A',contenido:'contenido1',valor:200,almacen:{codigo:2,lugar:'barcelona',capacidad:5000}});
+db.cajas.insertOne({num_referencia:'0002B',contenido:'contenido2',valor:1900,almacen:{codigo:5,lugar:'madrid',capacidad:6000}});
+db.cajas.insertOne({num_referencia:'0003C',contenido:'contenido3',valor:880,almacen:{codigo:3,lugar:'lleida',capacidad:2500}});
+db.cajas.insertOne({num_referencia:'0004D',contenido:'contenido4',valor:910,almacen:{codigo:1,lugar:'tarragona',capacidad:3000}});
+db.cajas.insertOne({num_referencia:'0005E',contenido:'contenido5',valor:1000,almacen:{codigo:4,lugar:'girona',capacidad:3100}});
+

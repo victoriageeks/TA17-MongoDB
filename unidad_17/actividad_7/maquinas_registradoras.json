@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6356f9db70dca0d5d8314fa8"
+  },
+  "codigo_maquina": 1,
+  "piso": 1
+},{
+  "_id": {
+    "$oid": "6356f9db70dca0d5d8314fa9"
+  },
+  "codigo_maquina": 2,
+  "piso": 2
+},{
+  "_id": {
+    "$oid": "6356f9db70dca0d5d8314faa"
+  },
+  "codigo_maquina": 3,
+  "piso": 3
+},{
+  "_id": {
+    "$oid": "6356f9db70dca0d5d8314fab"
+  },
+  "codigo_maquina": 4,
+  "piso": 4
+},{
+  "_id": {
+    "$oid": "6356f9db70dca0d5d8314fac"
+  },
+  "codigo_maquina": 5,
+  "piso": 5
+}]

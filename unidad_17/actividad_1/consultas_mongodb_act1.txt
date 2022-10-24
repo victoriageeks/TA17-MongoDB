@@ -1,0 +1,13 @@
+use actividad_1;
+
+db.createCollection('fabricantes');
+
+db.fabricantes.insertMany([{codigo:1,nombre:'fabricante1'},{codigo:2,nombre:'fabricante2'},{codigo:3,nombre:'fabricante3'}]);
+db.fabricantes.insertMany([{codigo:4,nombre:'fabricante4'},{codigo:5,nombre:'fabricante5'}]);
+
+db.createCollection('articulos');
+db.articulos.insertOne({codigo:1,nombre:'articulo1',precio:20,fabricante:{codigo:1,nombre:'fabricante1'}});
+db.articulos.insertOne({codigo:2,nombre:'articulo2',precio:25,fabricante:{codigo:2,nombre:'fabricante2'}});
+db.articulos.insertOne({codigo:3,nombre:'articulo3',precio:22,fabricante:{codigo:3,nombre:'fabricante3'}});
+db.articulos.insertOne({codigo:4,nombre:'articulo4',precio:10,fabricante:{codigo:4,nombre:'fabricante4'}});
+db.articulos.insertOne({codigo:5,nombre:'articulo5',precio:18,fabricante:{codigo:5,nombre:'fabricante5'}});

@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6356fa6370dca0d5d8314fad"
+  },
+  "codigo_cajero": 1,
+  "nom_apels": "joel exposito"
+},{
+  "_id": {
+    "$oid": "6356fa6370dca0d5d8314fae"
+  },
+  "codigo_cajero": 2,
+  "nom_apels": "victoria lavega"
+},{
+  "_id": {
+    "$oid": "6356fa6370dca0d5d8314faf"
+  },
+  "codigo_cajero": 3,
+  "nom_apels": "selena gomez"
+},{
+  "_id": {
+    "$oid": "6356fa6370dca0d5d8314fb0"
+  },
+  "codigo_cajero": 4,
+  "nom_apels": "justin bieber"
+},{
+  "_id": {
+    "$oid": "6356fa6370dca0d5d8314fb1"
+  },
+  "codigo_cajero": 5,
+  "nom_apels": "britney spears"
+}]

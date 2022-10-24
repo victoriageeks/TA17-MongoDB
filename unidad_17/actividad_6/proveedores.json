@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6356f6af70dca0d5d8314f99"
+  },
+  "id": "0001A",
+  "nombre": "proveedor1"
+},{
+  "_id": {
+    "$oid": "6356f6af70dca0d5d8314f9a"
+  },
+  "id": "0002B",
+  "nombre": "proveedor2"
+},{
+  "_id": {
+    "$oid": "6356f6af70dca0d5d8314f9b"
+  },
+  "id": "0003C",
+  "nombre": "proveedor3"
+},{
+  "_id": {
+    "$oid": "6356f6af70dca0d5d8314f9c"
+  },
+  "id": "0004D",
+  "nombre": "proveedor4"
+},{
+  "_id": {
+    "$oid": "6356f6af70dca0d5d8314f9d"
+  },
+  "id": "0005E",
+  "nombre": "proveedor5"
+}]

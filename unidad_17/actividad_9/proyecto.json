@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "6357030870dca0d5d8314fd4"
+  },
+  "id": "001A",
+  "nombre": "proyecto1",
+  "horas": 10
+},{
+  "_id": {
+    "$oid": "6357031870dca0d5d8314fd5"
+  },
+  "id": "002B",
+  "nombre": "proyecto2",
+  "horas": 7
+},{
+  "_id": {
+    "$oid": "6357032570dca0d5d8314fd6"
+  },
+  "id": "003C",
+  "nombre": "proyecto3",
+  "horas": 9
+},{
+  "_id": {
+    "$oid": "6357033370dca0d5d8314fd7"
+  },
+  "id": "004D",
+  "nombre": "proyecto4",
+  "horas": 12
+},{
+  "_id": {
+    "$oid": "6357034170dca0d5d8314fd8"
+  },
+  "id": "005E",
+  "nombre": "proyecto5",
+  "horas": 15
+}]

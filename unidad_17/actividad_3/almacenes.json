@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "6356dd18042979ea7d1e002d"
+  },
+  "codigo": 1,
+  "lugar": "tarragona",
+  "capacidad": 3000
+},{
+  "_id": {
+    "$oid": "6356dd18042979ea7d1e002e"
+  },
+  "codigo": 2,
+  "lugar": "barcelona",
+  "capacidad": 5000
+},{
+  "_id": {
+    "$oid": "6356dd18042979ea7d1e002f"
+  },
+  "codigo": 3,
+  "lugar": "lleida",
+  "capacidad": 2500
+},{
+  "_id": {
+    "$oid": "6356dd18042979ea7d1e0030"
+  },
+  "codigo": 4,
+  "lugar": "girona",
+  "capacidad": 3100
+},{
+  "_id": {
+    "$oid": "6356dd18042979ea7d1e0031"
+  },
+  "codigo": 5,
+  "lugar": "madrid",
+  "capacidad": 6000
+}]

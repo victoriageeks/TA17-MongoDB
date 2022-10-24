@@ -1,0 +1,11 @@
+use actividad_5;
+
+db.createCollection('despachos');
+db.despachos.insertMany([{numero:1,capacidad:50},{numero:2,capacidad:45},{numero:3,capacidad:60},{numero:4,capacidad:55},{numero:5,capacidad:65}]);
+
+db.createCollection('directores');
+db.directores.insertOne({DNI:'49876096',nom_apels:'victoria lavega martinez',DNI_jefe:'49876096',despacho:{numero:4,capacidad:55}});
+db.directores.insertOne({DNI:'49876097',nom_apels:'justin bieber',despacho:{numero:1,capacidad:50}});
+db.directores.insertOne({DNI:'49876098',nom_apels:'selena gomez',DNI_jefe:'49876098',despacho:{numero:2,capacidad:45}});
+db.directores.insertOne({DNI:'49876099',nom_apels:'joel exposito celorrio',DNI_jefe:'49876099',despacho:{numero:3,capacidad:60}});
+db.directores.insertOne({DNI:'49876090',nom_apels:'barbara recasens',despacho:{numero:5,capacidad:65}});

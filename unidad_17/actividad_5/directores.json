@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "6356e3e7042979ea7d1e0046"
+  },
+  "DNI": "49876096",
+  "nom_apels": "victoria lavega martinez",
+  "DNI_jefe": "49876096",
+  "despacho": {
+    "numero": 4,
+    "capacidad": 55
+  }
+},{
+  "_id": {
+    "$oid": "6356e422042979ea7d1e0047"
+  },
+  "DNI": "49876097",
+  "nom_apels": "justin bieber",
+  "despacho": {
+    "numero": 1,
+    "capacidad": 50
+  }
+},{
+  "_id": {
+    "$oid": "6356e462042979ea7d1e0048"
+  },
+  "DNI": "49876098",
+  "nom_apels": "selena gomez",
+  "DNI_jefe": "49876098",
+  "despacho": {
+    "numero": 2,
+    "capacidad": 45
+  }
+},{
+  "_id": {
+    "$oid": "6356e48e042979ea7d1e0049"
+  },
+  "DNI": "49876099",
+  "nom_apels": "joel exposito celorrio",
+  "DNI_jefe": "49876099",
+  "despacho": {
+    "numero": 3,
+    "capacidad": 60
+  }
+},{
+  "_id": {
+    "$oid": "6356e4c3042979ea7d1e004a"
+  },
+  "DNI": "49876090",
+  "nom_apels": "barbara recasens",
+  "despacho": {
+    "numero": 5,
+    "capacidad": 65
+  }
+}]

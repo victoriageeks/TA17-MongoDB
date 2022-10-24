@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "6356fdb370dca0d5d8314fc1"
+  },
+  "num_serie": "0001A",
+  "nombre": "rebels",
+  "facultad": {
+    "id_facultad": 1,
+    "nombre": "facultad1"
+  }
+},{
+  "_id": {
+    "$oid": "6356fdee70dca0d5d8314fc2"
+  },
+  "num_serie": "0002B",
+  "nombre": "barça",
+  "facultad": {
+    "id_facultad": 2,
+    "nombre": "facultad2"
+  }
+},{
+  "_id": {
+    "$oid": "6356fe0770dca0d5d8314fc3"
+  },
+  "num_serie": "0003C",
+  "nombre": "madrid",
+  "facultad": {
+    "id_facultad": 3,
+    "nombre": "facultad3"
+  }
+},{
+  "_id": {
+    "$oid": "6356fe1870dca0d5d8314fc4"
+  },
+  "num_serie": "0004D",
+  "nombre": "sevilla",
+  "facultad": {
+    "id_facultad": 4,
+    "nombre": "facultad4"
+  }
+},{
+  "_id": {
+    "$oid": "6356fe3170dca0d5d8314fc5"
+  },
+  "num_serie": "0005E",
+  "nombre": "valencia",
+  "facultad": {
+    "id_facultad": 5,
+    "nombre": "facultad5"
+  }
+}]

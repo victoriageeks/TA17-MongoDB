@@ -1,0 +1,31 @@
+use actividad_8;
+
+db.createCollection('facultad');
+db.facultad.insertOne({id_facultad:1,nombre:'facultad1'});
+db.facultad.insertOne({id_facultad:2,nombre:'facultad2'});
+db.facultad.insertOne({id_facultad:3,nombre:'facultad3'});
+db.facultad.insertOne({id_facultad:4,nombre:'facultad4'});
+db.facultad.insertOne({id_facultad:5,nombre:'facultad5'});
+
+db.createCollection('investigadores');
+db.investigadores.insertOne({DNI:'34890761',nom_apels:'joel exposito',facultad:{id_facultad:1,nombre:'facultad1'}});
+db.investigadores.insertOne({DNI:'34890762',nom_apels:'victoria lavega',facultad:{id_facultad:5,nombre:'facultad5'}});
+db.investigadores.insertOne({DNI:'34890763',nom_apels:'selena gomez',facultad:{id_facultad:4,nombre:'facultad4'}});
+db.investigadores.insertOne({DNI:'34890764',nom_apels:'justin bieber',facultad:{id_facultad:3,nombre:'facultad3'}});
+db.investigadores.insertOne({DNI:'34890765',nom_apels:'britney spears',facultad:{id_facultad:2,nombre:'facultad2'}});
+
+db.createCollection('equipos');
+db.equipos.insertOne({num_serie:'0001A',nombre:'rebels',facultad:{id_facultad:1,nombre:'facultad1'}});
+db.equipos.insertOne({num_serie:'0002B',nombre:'barça',facultad:{id_facultad:2,nombre:'facultad2'}});
+db.equipos.insertOne({num_serie:'0003C',nombre:'madrid',facultad:{id_facultad:3,nombre:'facultad3'}});
+db.equipos.insertOne({num_serie:'0004D',nombre:'sevilla',facultad:{id_facultad:4,nombre:'facultad4'}});
+db.equipos.insertOne({num_serie:'0005E',nombre:'valencia',facultad:{id_facultad:5,nombre:'facultad5'}});
+
+
+db.createCollection('reserva');
+db.reserva.insertOne({DNI:{DNI:'34890761',nom_apels:'joel exposito',facultad:{id_facultad:1,nombre:'facultad1'}},num_serie:{num_serie:'0001A',nombre:'rebels',facultad:{id_facultad:1,nombre:'facultad1'}},comienzo:'15-10-22',fin:'22-10-22'});
+db.reserva.insertOne({DNI:{DNI:'34890762',nom_apels:'victoria lavega',facultad:{id_facultad:5,nombre:'facultad5'}},num_serie:{num_serie:'0002B',nombre:'barça',facultad:{id_facultad:2,nombre:'facultad2'}},comienzo:'10-11-22',fin:'12-11-22'});
+db.reserva.insertOne({DNI:{DNI:'34890763',nom_apels:'selena gomez',facultad:{id_facultad:4,nombre:'facultad4'}},num_serie:{num_serie:'0003C',nombre:'madrid',facultad:{id_facultad:3,nombre:'facultad3'}},comienzo:'09-11-22',fin:'10-11-22'});
+db.reserva.insertOne({DNI:{DNI:'34890764',nom_apels:'justin bieber',facultad:{id_facultad:3,nombre:'facultad3'}},num_serie:{num_serie:'0004D',nombre:'sevilla',facultad:{id_facultad:4,nombre:'facultad4'}},comienzo:'22-12-22',fin:'23-12-22'});
+db.reserva.insertOne({DNI:{DNI:'34890765',nom_apels:'britney spears',facultad:{id_facultad:2,nombre:'facultad2'}},num_serie:{num_serie:'0005E',nombre:'valencia',facultad:{id_facultad:5,nombre:'facultad5'}},comienzo:'13-12-22',fin:'15-12-22'});
+

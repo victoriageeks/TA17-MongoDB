@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6357028470dca0d5d8314fcf"
+  },
+  "DNI": "39897601",
+  "nom_apels": "joel exposito"
+},{
+  "_id": {
+    "$oid": "6357029170dca0d5d8314fd0"
+  },
+  "DNI": "39897602",
+  "nom_apels": "victoria lavega"
+},{
+  "_id": {
+    "$oid": "6357029e70dca0d5d8314fd1"
+  },
+  "DNI": "39897603",
+  "nom_apels": "selena gomez"
+},{
+  "_id": {
+    "$oid": "635702ab70dca0d5d8314fd2"
+  },
+  "DNI": "39897604",
+  "nom_apels": "justin bieber"
+},{
+  "_id": {
+    "$oid": "635702b970dca0d5d8314fd3"
+  },
+  "DNI": "39897605",
+  "nom_apels": "britney spears"
+}]

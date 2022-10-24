@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "6356de11042979ea7d1e0032"
+  },
+  "num_referencia": "0001A",
+  "contenido": "contenido1",
+  "valor": 200,
+  "almacen": {
+    "codigo": 2,
+    "lugar": "barcelona",
+    "capacidad": 5000
+  }
+},{
+  "_id": {
+    "$oid": "6356de53042979ea7d1e0033"
+  },
+  "num_referencia": "0002B",
+  "contenido": "contenido2",
+  "valor": 1900,
+  "almacen": {
+    "codigo": 5,
+    "lugar": "madrid",
+    "capacidad": 6000
+  }
+},{
+  "_id": {
+    "$oid": "6356dec4042979ea7d1e0034"
+  },
+  "num_referencia": "0003C",
+  "contenido": "contenido3",
+  "valor": 880,
+  "almacen": {
+    "codigo": 3,
+    "lugar": "lleida",
+    "capacidad": 2500
+  }
+},{
+  "_id": {
+    "$oid": "6356df14042979ea7d1e0035"
+  },
+  "num_referencia": "0004D",
+  "contenido": "contenido4",
+  "valor": 910,
+  "almacen": {
+    "codigo": 1,
+    "lugar": "tarragona",
+    "capacidad": 3000
+  }
+},{
+  "_id": {
+    "$oid": "6356df3b042979ea7d1e0036"
+  },
+  "num_referencia": "0005E",
+  "contenido": "contenido5",
+  "valor": 1000,
+  "almacen": {
+    "codigo": 4,
+    "lugar": "girona",
+    "capacidad": 3100
+  }
+}]

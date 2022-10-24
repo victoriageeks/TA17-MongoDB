@@ -1,0 +1,86 @@
+[{
+  "_id": {
+    "$oid": "6356fadb70dca0d5d8314fb2"
+  },
+  "cajero": {
+    "codigo_cajero": 1,
+    "nom_apels": "joel exposito"
+  },
+  "maquina": {
+    "codigo_maquina": 1,
+    "piso": 1
+  },
+  "producto": {
+    "codigo": 1,
+    "producto": "producto1",
+    "precio": 25
+  }
+},{
+  "_id": {
+    "$oid": "6356fb1070dca0d5d8314fb3"
+  },
+  "cajero": {
+    "codigo_cajero": 2,
+    "nom_apels": "victoria lavega"
+  },
+  "maquina": {
+    "codigo_maquina": 2,
+    "piso": 2
+  },
+  "producto": {
+    "codigo": 2,
+    "producto": "producto2",
+    "precio": 15
+  }
+},{
+  "_id": {
+    "$oid": "6356fb4170dca0d5d8314fb4"
+  },
+  "cajero": {
+    "codigo_cajero": 3,
+    "nom_apels": "selena gomez"
+  },
+  "maquina": {
+    "codigo_maquina": 3,
+    "piso": 3
+  },
+  "producto": {
+    "codigo": 3,
+    "producto": "producto3",
+    "precio": 12
+  }
+},{
+  "_id": {
+    "$oid": "6356fb6870dca0d5d8314fb5"
+  },
+  "cajero": {
+    "codigo_cajero": 4,
+    "nom_apels": "justin bieber"
+  },
+  "maquina": {
+    "codigo_maquina": 4,
+    "piso": 4
+  },
+  "producto": {
+    "codigo": 4,
+    "producto": "producto4",
+    "precio": 22
+  }
+},{
+  "_id": {
+    "$oid": "6356fb9570dca0d5d8314fb6"
+  },
+  "cajero": {
+    "codigo_cajero": 5,
+    "nom_apels": "britney spears"
+  },
+  "maquina": {
+    "codigo_maquina": 5,
+    "piso": 5
+  },
+  "producto": {
+    "codigo": 5,
+    "producto": "producto5",
+    "precio": 17
+  }
+}]

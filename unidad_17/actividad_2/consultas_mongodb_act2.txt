@@ -1,0 +1,13 @@
+use actividad_2;
+
+db.createCollection('departamentos');
+db.departamentos.insertMany([{codigo:1,nombre:'departamento1',presupuesto:5000},{codigo:2,nombre:'departamento2',presupuesto:2300},{codigo:3,nombre:'departamento3',presupuesto:4000}]);
+db.departamentos.insertMany([{codigo:4,nombre:'departamento4',presupuesto:3200},{codigo:5,nombre:'departamento5',presupuesto:1700}]);
+
+db.createCollection('empleados');
+db.empleados.insertOne({DNI:'36890345',nombre:'paula',apellidos:'lopez figueroa',departamento:{codigo:1,nombre:'departamento1',presupuesto:5000}});
+db.empleados.insertOne({DNI:'36890346',nombre:'maria',apellidos:'queralt figueroa',departamento:{codigo:3,nombre:'departamento3',presupuesto:4000}});
+db.empleados.insertOne({DNI:'36890347',nombre:'joan',apellidos:'martinez marin',departamento:{codigo:2,nombre:'departamento2',presupuesto:2300}});
+db.empleados.insertOne({DNI:'36890348',nombre:'joel',apellidos:'exposito celorrio',departamento:{codigo:5,nombre:'departamento5',presupuesto:1700}});
+db.empleados.insertOne({DNI:'36890349',nombre:'victoria',apellidos:'lavega martinez',departamento:{codigo:4,nombre:'departamento4',presupuesto:3200}});
+

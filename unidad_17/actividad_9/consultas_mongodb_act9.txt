@@ -1,0 +1,22 @@
+use actividad_9;
+
+db.createCollection('cientificos');
+db.cientificos.insertOne({DNI:'39897601',nom_apels:'joel exposito'});
+db.cientificos.insertOne({DNI:'39897602',nom_apels:'victoria lavega'});
+db.cientificos.insertOne({DNI:'39897603',nom_apels:'selena gomez'});
+db.cientificos.insertOne({DNI:'39897604',nom_apels:'justin bieber'});
+db.cientificos.insertOne({DNI:'39897605',nom_apels:'britney spears'});
+
+db.createCollection('proyecto');
+db.proyecto.insertOne({id:'001A',nombre:'proyecto1',horas:10});
+db.proyecto.insertOne({id:'002B',nombre:'proyecto2',horas:7});
+db.proyecto.insertOne({id:'003C',nombre:'proyecto3',horas:9});
+db.proyecto.insertOne({id:'004D',nombre:'proyecto4',horas:12});
+db.proyecto.insertOne({id:'005E',nombre:'proyecto5',horas:15});
+
+db.createCollection('asignado_a');
+db.asignado_a.insertOne({cientifico:{DNI:'39897601',nom_apels:'joel exposito'},proyecto:{id:'002B',nombre:'proyecto2',horas:7}});
+db.asignado_a.insertOne({cientifico:{DNI:'39897602',nom_apels:'victoria lavega'},proyecto:{id:'001A',nombre:'proyecto1',horas:10}});
+db.asignado_a.insertOne({cientifico:{DNI:'39897603',nom_apels:'selena gomez'},proyecto:{id:'005E',nombre:'proyecto5',horas:15}});
+db.asignado_a.insertOne({cientifico:{DNI:'39897604',nom_apels:'justin bieber'},proyecto:{id:'003C',nombre:'proyecto3',horas:9}});
+db.asignado_a.insertOne({cientifico:{DNI:'39897605',nom_apels:'britney spears'},proyecto:{id:'004D',nombre:'proyecto4',horas:12}});

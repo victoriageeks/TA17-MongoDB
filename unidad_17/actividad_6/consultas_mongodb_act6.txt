@@ -1,0 +1,15 @@
+use actividad_6;
+
+db.createCollection('piezas');
+db.piezas.insertMany([{codigo:1,nombre:'pieza1'},{codigo:2,nombre:'pieza2'},{codigo:3,nombre:'pieza3'}]);
+db.piezas.insertMany([{codigo:4,nombre:'pieza4'},{codigo:5,nombre:'pieza5'}]);
+
+db.createCollection('proveedores');
+db.proveedores.insertMany([{id:'0001A',nombre:'proveedor1'},{id:'0002B',nombre:'proveedor2'},{id:'0003C',nombre:'proveedor3'},{id:'0004D',nombre:'proveedor4'},{id:'0005E',nombre:'proveedor5'}]);
+
+db.createCollection('suministra');
+db.suministra.insertOne({codigo_pieza:{codigo:1,nombre:'pieza1'},id_proveedor:{id:'0002B',nombre:'proveedor2'},precio:40});
+db.suministra.insertOne({codigo_pieza:{codigo:2,nombre:'pieza2'},id_proveedor:{id:'0001A',nombre:'proveedor1'},precio:35});
+db.suministra.insertOne({codigo_pieza:{codigo:3,nombre:'pieza3'},id_proveedor:{id:'0005E',nombre:'proveedor5'},precio:50});
+db.suministra.insertOne({codigo_pieza:{codigo:5,nombre:'pieza5'},id_proveedor:{id:'0003C',nombre:'proveedor3'},precio:37});
+db.suministra.insertOne({codigo_pieza:{codigo:4,nombre:'pieza4'},id_proveedor:{id:'0004D',nombre:'proveedor4'},precio:22});

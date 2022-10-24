@@ -1,0 +1,11 @@
+use actividad_4;
+
+db.createCollection('peliculas');
+db.peliculas.insertMany([{codigo:1,nombre:'shin chan',calificacion_edad:5},{codigo:2,nombre:'smile',calificacion_edad:16},{codigo:3,nombre:'it',calificacion_edad:16},{codigo:4,nombre:'shadow hunters',calificacion_edad:12},{codigo:5,nombre:'marvel',calificacion_edad:12}]);
+
+db.createCollection('salas');
+db.salas.insertOne({codigo:1,nombre:'sala1',pelicula:{codigo:2,nombre:'smile',calificacion_edad:16}});
+db.salas.insertOne({codigo:2,nombre:'sala2',pelicula:{codigo:1,nombre:'shin chan',calificacion_edad:5}});
+db.salas.insertOne({codigo:3,nombre:'sala3',pelicula:{codigo:3,nombre:'it',calificacion_edad:16}});
+db.salas.insertOne({codigo:4,nombre:'sala4',pelicula:{codigo:5,nombre:'marvel',calificacion_edad:12}});
+db.salas.insertOne({codigo:5,nombre:'sala5',pelicula:{codigo:4,nombre:'shadow hunters',calificacion_edad:12}});

@@ -1,0 +1,18 @@
+use actividad_7;
+
+db.createCollection('productos');
+db.productos.insertMany([{codigo:1,nombre:'producto1',precio:25},{codigo:2,nombre:'producto2',precio:15},{codigo:3,nombre:'producto3',precio:12},{codigo:4,nombre:'producto4',precio:22},{codigo:5,nombre:'producto5',precio:17}]);
+
+db.createCollection('maquinas_registradoras');
+db.maquinas_registradoras.insertMany([{codigo_maquina:1,piso:1},{codigo_maquina:2,piso:2},{codigo_maquina:3,piso:3},{codigo_maquina:4,piso:4},{codigo_maquina:5,piso:5}]);
+
+db.createCollection('cajeros');
+db.cajeros.insertMany([{codigo_cajero:1,nom_apels:'joel exposito'},{codigo_cajero:2,nom_apels:'victoria lavega'},{codigo_cajero:3,nom_apels:'selena gomez'},{codigo_cajero:4,nom_apels:'justin bieber'},{codigo_cajero:5,nom_apels:'britney spears'}]);
+
+db.createCollection('venta');
+db.venta.insertOne({cajero:{codigo_cajero:1,nom_apels:'joel exposito'},maquina:{codigo_maquina:1,piso:1},producto:{codigo:1,producto:'producto1',precio:25}});
+db.venta.insertOne({cajero:{codigo_cajero:2,nom_apels:'victoria lavega'},maquina:{codigo_maquina:2,piso:2},producto:{codigo:2,producto:'producto2',precio:15}});
+db.venta.insertOne({cajero:{codigo_cajero:3,nom_apels:'selena gomez'},maquina:{codigo_maquina:3,piso:3},producto:{codigo:3,producto:'producto3',precio:12}});
+db.venta.insertOne({cajero:{codigo_cajero:4,nom_apels:'justin bieber'},maquina:{codigo_maquina:4,piso:4},producto:{codigo:4,producto:'producto4',precio:22}});
+db.venta.insertOne({cajero:{codigo_cajero:5,nom_apels:'britney spears'},maquina:{codigo_maquina:5,piso:5},producto:{codigo:5,producto:'producto5',precio:17}});
+

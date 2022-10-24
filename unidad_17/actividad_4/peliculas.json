@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "6356e156042979ea7d1e0037"
+  },
+  "codigo": 1,
+  "nombre": "shin chan",
+  "calificacion_edad": 5
+},{
+  "_id": {
+    "$oid": "6356e156042979ea7d1e0038"
+  },
+  "codigo": 2,
+  "nombre": "smile",
+  "calificacion_edad": 16
+},{
+  "_id": {
+    "$oid": "6356e156042979ea7d1e0039"
+  },
+  "codigo": 3,
+  "nombre": "it",
+  "calificacion_edad": 16
+},{
+  "_id": {
+    "$oid": "6356e156042979ea7d1e003a"
+  },
+  "codigo": 4,
+  "nombre": "shadow hunters",
+  "calificacion_edad": 12
+},{
+  "_id": {
+    "$oid": "6356e156042979ea7d1e003b"
+  },
+  "codigo": 5,
+  "nombre": "marvel",
+  "calificacion_edad": 12
+}]

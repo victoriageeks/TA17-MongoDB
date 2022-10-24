@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "6356fcf570dca0d5d8314fbc"
+  },
+  "DNI": "34890761",
+  "nom_apels": "joel exposito",
+  "facultad": {
+    "id_facultad": 1,
+    "nombre": "facultad1"
+  }
+},{
+  "_id": {
+    "$oid": "6356fd0770dca0d5d8314fbd"
+  },
+  "DNI": "34890762",
+  "nom_apels": "victoria lavega",
+  "facultad": {
+    "id_facultad": 5,
+    "nombre": "facultad5"
+  }
+},{
+  "_id": {
+    "$oid": "6356fd1a70dca0d5d8314fbe"
+  },
+  "DNI": "34890763",
+  "nom_apels": "selena gomez",
+  "facultad": {
+    "id_facultad": 4,
+    "nombre": "facultad4"
+  }
+},{
+  "_id": {
+    "$oid": "6356fd3670dca0d5d8314fbf"
+  },
+  "DNI": "34890764",
+  "nom_apels": "justin bieber",
+  "facultad": {
+    "id_facultad": 3,
+    "nombre": "facultad3"
+  }
+},{
+  "_id": {
+    "$oid": "6356fd4d70dca0d5d8314fc0"
+  },
+  "DNI": "34890765",
+  "nom_apels": "britney spears",
+  "facultad": {
+    "id_facultad": 2,
+    "nombre": "facultad2"
+  }
+}]

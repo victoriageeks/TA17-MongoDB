@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "6356da37042979ea7d1e0028"
+  },
+  "DNI": "36890345",
+  "nombre": "paula",
+  "apellidos": "lopez figueroa",
+  "departamento": {
+    "codigo": 1,
+    "nombre": "departamento1",
+    "presupuesto": 5000
+  }
+},{
+  "_id": {
+    "$oid": "6356da70042979ea7d1e0029"
+  },
+  "DNI": "36890346",
+  "nombre": "maria",
+  "apellidos": "queralt figueroa",
+  "departamento": {
+    "codigo": 3,
+    "nombre": "departamento3",
+    "presupuesto": 4000
+  }
+},{
+  "_id": {
+    "$oid": "6356daa5042979ea7d1e002a"
+  },
+  "DNI": "36890347",
+  "nombre": "joan",
+  "apellidos": "martinez marin",
+  "departamento": {
+    "codigo": 2,
+    "nombre": "departamento2",
+    "presupuesto": 2300
+  }
+},{
+  "_id": {
+    "$oid": "6356dae5042979ea7d1e002b"
+  },
+  "DNI": "36890348",
+  "nombre": "joel",
+  "apellidos": "exposito celorrio",
+  "departamento": {
+    "codigo": 5,
+    "nombre": "departamento5",
+    "presupuesto": 1700
+  }
+},{
+  "_id": {
+    "$oid": "6356db26042979ea7d1e002c"
+  },
+  "DNI": "36890349",
+  "nombre": "victoria",
+  "apellidos": "lavega martinez",
+  "departamento": {
+    "codigo": 4,
+    "nombre": "departamento4",
+    "presupuesto": 3200
+  }
+}]

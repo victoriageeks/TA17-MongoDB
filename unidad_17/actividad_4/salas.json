@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "6356e1e7042979ea7d1e003c"
+  },
+  "codigo": 1,
+  "nombre": "sala1",
+  "pelicula": {
+    "codigo": 2,
+    "nombre": "smile",
+    "calificacion_edad": 16
+  }
+},{
+  "_id": {
+    "$oid": "6356e202042979ea7d1e003d"
+  },
+  "codigo": 2,
+  "nombre": "sala2",
+  "pelicula": {
+    "codigo": 1,
+    "nombre": "shin chan",
+    "calificacion_edad": 5
+  }
+},{
+  "_id": {
+    "$oid": "6356e219042979ea7d1e003e"
+  },
+  "codigo": 3,
+  "nombre": "sala3",
+  "pelicula": {
+    "codigo": 3,
+    "nombre": "it",
+    "calificacion_edad": 16
+  }
+},{
+  "_id": {
+    "$oid": "6356e230042979ea7d1e003f"
+  },
+  "codigo": 4,
+  "nombre": "sala4",
+  "pelicula": {
+    "codigo": 5,
+    "nombre": "marvel",
+    "calificacion_edad": 12
+  }
+},{
+  "_id": {
+    "$oid": "6356e24a042979ea7d1e0040"
+  },
+  "codigo": 5,
+  "nombre": "sala5",
+  "pelicula": {
+    "codigo": 4,
+    "nombre": "shadow hunters",
+    "calificacion_edad": 12
+  }
+}]

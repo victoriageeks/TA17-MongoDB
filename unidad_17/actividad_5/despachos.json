@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6356e330042979ea7d1e0041"
+  },
+  "numero": 1,
+  "capacidad": 50
+},{
+  "_id": {
+    "$oid": "6356e330042979ea7d1e0042"
+  },
+  "numero": 2,
+  "capacidad": 45
+},{
+  "_id": {
+    "$oid": "6356e330042979ea7d1e0043"
+  },
+  "numero": 3,
+  "capacidad": 60
+},{
+  "_id": {
+    "$oid": "6356e330042979ea7d1e0044"
+  },
+  "numero": 4,
+  "capacidad": 55
+},{
+  "_id": {
+    "$oid": "6356e330042979ea7d1e0045"
+  },
+  "numero": 5,
+  "capacidad": 65
+}]

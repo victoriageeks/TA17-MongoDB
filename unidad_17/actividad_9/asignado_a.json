@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "6357038670dca0d5d8314fd9"
+  },
+  "cientifico": {
+    "DNI": "39897601",
+    "nom_apels": "joel exposito"
+  },
+  "proyecto": {
+    "id": "002B",
+    "nombre": "proyecto2",
+    "horas": 7
+  }
+},{
+  "_id": {
+    "$oid": "635703f970dca0d5d8314fda"
+  },
+  "cientifico": {
+    "DNI": "39897602",
+    "nom_apels": "victoria lavega"
+  },
+  "proyecto": {
+    "id": "001A",
+    "nombre": "proyecto1",
+    "horas": 10
+  }
+},{
+  "_id": {
+    "$oid": "6357045070dca0d5d8314fdc"
+  },
+  "cientifico": {
+    "DNI": "39897603",
+    "nom_apels": "selena gomez"
+  },
+  "proyecto": {
+    "id": "005E",
+    "nombre": "proyecto5",
+    "horas": 15
+  }
+},{
+  "_id": {
+    "$oid": "635704a470dca0d5d8314fdd"
+  },
+  "cientifico": {
+    "DNI": "39897604",
+    "nom_apels": "justin bieber"
+  },
+  "proyecto": {
+    "id": "003C",
+    "nombre": "proyecto3",
+    "horas": 9
+  }
+},{
+  "_id": {
+    "$oid": "635704d070dca0d5d8314fde"
+  },
+  "cientifico": {
+    "DNI": "39897605",
+    "nom_apels": "britney spears"
+  },
+  "proyecto": {
+    "id": "004D",
+    "nombre": "proyecto4",
+    "horas": 12
+  }
+}]
